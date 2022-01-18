@@ -112,6 +112,42 @@ public class ArraysPractice {
 		String[] i = {"Hello", "World"};
 		int[][] j = {{1,2,3}, {50,100,150,200,250}};
 		
+		//UNLIKE int, String etc, ARRAY cannot be declared and initialized in 2 separate lines.
+		//Length is a final variable applicable for Arrays. Length variable represents the size of the Array.
+		//Other data types such as String etc have .length() method which is a final method. This method returns number of chars present in a String.
+		
+		//In Multi-Dimensional arrays the length variable represents on the base size not the total size.
+		//No direct way to find the total length of multi-dimensional array
+		int[][] twoDArrayThree = new int[2][5]; 
+		System.out.println("-----------------------------------");
+		System.out.println("Printing 2D arrays length");
+		System.out.println(twoDArrayThree.length); //Will result in 2
+		System.out.println(twoDArrayThree[0].length); //Will give 5
+		
+		//NUMBER type can hold any Byte, Short, int, Long, Float and Double.
+		Number[] n = new Number[10];
+		n[0] = new Integer(10);
+		n[1] = new Double("25.75");
+		
+		//Assigning an array to another
+		int[] a1 = {1,2,3};
+		char[] a2 = {'a', 'b', 'c'};
+		
+		int[] a3 = a1;
+		//Element level promotion is not applicable at Array level.
+		//int[] a4 = a2;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
 		
 		
 		
